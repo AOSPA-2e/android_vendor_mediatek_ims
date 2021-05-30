@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
 
 # Video Telephony
 PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.videotelephony@1.0
+    vendor.mediatek.hardware.videotelephony@1.0 \
+    vendor.mediatek.hardware.videotelephony@1.0-impl
 
 # Permissions
 PRODUCT_COPY_FILES += \
