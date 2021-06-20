@@ -1,3 +1,7 @@
+# Skip Boot JAR check.
+# FIXME: This is on BSP, and MediaTek is responsible for this.
+SKIP_BOOT_JARS_CHECK := true
+
 # Apps
 PRODUCT_PACKAGES += \
     ImsService
